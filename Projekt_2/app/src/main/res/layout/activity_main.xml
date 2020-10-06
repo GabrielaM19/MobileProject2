@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.example.projekt_2.MainActivity"
+    android:orientation="vertical"
+    android:background="#aee2ec">
+
+
+    <TextView
+        android:id="@+id/tvTytul"
+        android:text="Lista Zakupow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:padding="5dp"/>
+
+    <ListView
+        android:id="@+id/lvListaZakupow"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:choiceMode="singleChoice"
+        android:background="#486486"
+        android:textColor="#f9ceed"/>
+
+    <EditText
+        android:id="@+id/edElementDoDodania"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dodaj Produkt"
+        android:textColorHint="#b3b3b3"
+        android:background="#1b5604"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/bDodajProdukt"
+        android:layout_marginTop="5dp"
+        android:text="Dodaj Produkt"
+        android:textColor="#ffffff"
+        android:background="#1b5604"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/bUsunProdukt"
+        android:layout_marginTop="5dp"
+        android:text="Usun Produkt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#910d06"
+        android:textColor="#ffffff"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/bOdczyt"
+        android:text="Odczyt listy z pliku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#062691"
+        android:textColor="#ffffff"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/bZapis"
+        android:text="Zapis listy z pliku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#500691"
+        android:textColor="#ffffff"
+        android:padding="5dp"/>
+
+
+</LinearLayout>
